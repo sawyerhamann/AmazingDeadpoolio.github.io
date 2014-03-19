@@ -1,0 +1,97 @@
+/* Your Website Styles */
+.menu ul {
+	list-style: none;
+	background-color: #a61412;
+	padding: 8px 0px;
+	margin: 0px;
+	text-align: center;
+	font-family: 'Futura', sans-serif;
+}
+
+.menu li {
+	padding: 20px;
+	display: inline;
+	font-size: 1.5em;
+	color: white;
+}
+
+.menu a {
+	color: black;
+	transition: 1s all;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+	color: white;
+	transition: .5s all;
+}
+
+
+/* Gallery Stying */
+.gallery .control-button {
+  color: #a61412;
+}
+
+.gallery .control-button:hover {
+  color: white;
+}
+
+:root {
+  background-color: #000;
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+  background: #a61412;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border-radius: 50%;
+  border: #a61412 2px solid;
+  transition: .5s all;
+}
+
+.gallery .controls img:hover {
+  margin-bottom: 30px;
+  transition: .75s all;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+p {
+  color: #555;
+  font-family: 'Futura', 'Helvetica', sans-serif;
+  font-size: .75em;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+/* Show Grid
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+*/
