@@ -1,4 +1,4 @@
-/* Your Website Styles */
+/* Nav Styles */
 
 .menu ul {
 	list-style: none;
@@ -13,6 +13,7 @@
 	padding: 20px;
 	display: inline;
 	font-size: 1.5em;
+	color: white;
 }
 
 .menu a {
@@ -26,4 +27,10 @@
 	text-decoration: underline;
 	color: white;
 	transition: .5s all;
+}
+
+/* Webpage Styles */
+
+:root {
+	background-color: #000
 }

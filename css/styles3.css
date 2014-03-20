@@ -11,6 +11,7 @@
 	padding: 20px;
 	display: inline;
 	font-size: 1.5em;
+	color: white;
 }
 
 .menu a {
@@ -45,6 +46,7 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
@@ -61,8 +63,8 @@ section {
 }
 
 .color-1:hover {
-	height: 100px;
-	width: 100px;
+	height: 75px;
+	width: 75px;
 	transition: all .5s;
 }
 
@@ -71,8 +73,8 @@ section {
 }
 
 .color-2:hover {
-	height: 100px;
-	width: 100px;
+	height: 75px;
+	width: 75px;
 	transition: all .5s;
 }
 
@@ -81,8 +83,18 @@ section {
 }
 
 .color-3:hover {
-	height: 100px;
-	width: 100px;
+	height: 75px;
+	width: 75px;
+	transition: all .5s;
+}
+
+.color-4 {
+	background-color: #999
+}
+
+.color-4:hover {
+	height: 75px;
+	width: 75px;
 	transition: all .5s;
 }
 
@@ -90,7 +102,7 @@ section {
 
 body {
 	background-color: black;
-	color: white;
+	color: #999;
 	font-family: 'Futura', sans-serif;
 }
 

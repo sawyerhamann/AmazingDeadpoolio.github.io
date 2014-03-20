@@ -70,6 +70,7 @@
 .gallery .controls img:hover {
   margin-bottom: 30px;
   transition: .75s all;
+  box-shadow: 0px 0px 25px 2px #fff;
 }
 
 .gallery .control-button {

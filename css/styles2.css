@@ -1,4 +1,4 @@
-/* Your Website Styles */
+/* Nav Styles */
 
 .menu ul {
 	list-style: none;
@@ -13,6 +13,7 @@
 	padding: 20px;
 	display: inline;
 	font-size: 1.5em;
+	color: white;
 }
 
 .menu a {
@@ -27,3 +28,62 @@
 	color: white;
 	transition: .5s all;
 }
+
+/* Website Styles */
+
+:root {
+	background-color: #000;
+}
+
+body {
+	font-family: 'Futura', sans-serif;
+	color: #999;
+}
+
+@font-face {
+	font-family: 'Red October';
+	src: url('../assets/red_october-regular-webfont.woff');
+}
+
+h1, h2 {
+	color: white;
+	font-family: 'Red October', sans-serif;
+	background-color: black;
+	text-transform: uppercase;
+	padding: 0px;
+	display: block;
+	-webkit-text-stroke: 2px #a61412;
+}
+
+h3 {
+	color: #a61412;
+	font-family: 'Futura', sans-serif;
+	background-color: black;
+	padding: 0px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #a61412;
+}
+
+#head {
+	text-align: center;
+}
+
+#sum {
+	text-align: center;
+	color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
