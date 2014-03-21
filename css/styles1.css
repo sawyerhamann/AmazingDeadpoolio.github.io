@@ -6,7 +6,7 @@
 	padding: 8px 0px;
 	margin: 0px;
 	text-align: center;
-	font-family: 'Futura', sans-serif;
+	font-family: 'FuturaExtended', sans-serif;
 }
 
 .menu li {
@@ -34,3 +34,60 @@
 :root {
 	background-color: #000
 }
+
+h3 {
+	color: #a61412;
+	font-family: 'FuturaExtended', sans-serif;
+	padding: 0px;
+	text-align: center;
+}
+
+p {
+	color: #999;
+	font-family: 'FuturaExtended', sans-serif;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+img {
+	width: 100%;
+}
+
+.round {
+	width: 300px;
+	background-color: black;
+	display: inline-block;
+}
+
+@font-face {
+	font-family: 'Red October';
+	src: url('../assets/red_october-regular-webfont.woff');
+}
+
+@font-face {
+	font-family: 'FuturaExtended';
+	src: url('../assets/futuraextended-webfont.woff');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

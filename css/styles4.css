@@ -5,7 +5,7 @@
 	padding: 8px 0px;
 	margin: 0px;
 	text-align: center;
-	font-family: 'Futura', sans-serif;
+	font-family: 'FuturaExtended', sans-serif;
 }
 
 .menu li {
@@ -84,10 +84,20 @@
 
 p {
   color: #555;
-  font-family: 'Futura', 'Helvetica', sans-serif;
+  font-family: 'FuturaExtended', 'Helvetica', sans-serif;
   font-size: .75em;
   text-align: center;
   padding-bottom: 40px;
+}
+
+@font-face {
+	font-family: 'Red October';
+	src: url('../assets/red_october-regular-webfont.woff');
+}
+
+@font-face {
+	font-family: 'FuturaExtended';
+	src: url('../assets/futuraextended-webfont.woff');
 }
 
 

@@ -1,7 +1,78 @@
-/* Your Website Styles */
-
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+/* Nav Styles */
+.menu ul {
+	list-style: none;
+	background-color: #a61412;
+	padding: 8px 0px;
+	margin: 0px;
+	text-align: center;
+	font-family: 'FuturaExtended', sans-serif;
 }
+
+.menu li {
+	padding: 20px;
+	display: inline;
+	font-size: 1.5em;
+	color: white;
+}
+
+.menu a {
+	color: black;
+	transition: 1s all;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+	color: white;
+	transition: .5s all;
+}
+
+
+/* Website Styles */
+:root {
+	background: url(../img/idbg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	
+	
+}
+
+h1, h2 {
+	color: white;
+	font-family: 'Red October', sans-serif;
+	text-transform: uppercase;
+	padding-right: 30px;
+	display: block;
+	-webkit-text-stroke: .0625em #a61412;
+	text-align: right;
+}
+
+h3 {
+	color: #a61412;
+	font-family: 'FuturaExtended', sans-serif;
+	padding-right: 30px;
+	text-align: right;
+}
+
+p {
+	color: #999;
+	font-family: 'FuturaExtended', sans-serif;
+	margin-right: 10px;
+	margin-left: 20px;
+	text-align: right;
+}
+
+@font-face {
+	font-family: 'Red October';
+	src: url('../assets/red_october-regular-webfont.woff');
+}
+
+@font-face {
+	font-family: 'FuturaExtended';
+	src: url('../assets/futuraextended-webfont.woff');
+}
+
+
+

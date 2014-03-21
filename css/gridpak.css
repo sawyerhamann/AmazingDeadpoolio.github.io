@@ -57,7 +57,7 @@
         .span_2 {
             width:66.0%;
         }
-        .span_3 {
+        .span_3, {
             margin-left:0;
             width:100%;
         }
@@ -88,10 +88,10 @@
         .span_1 {
             width:32.0%;
         }
-        .span_2 {
+        .span_2, {
             width:66.0%;
         }
-        .span_3 {
+        .span_3, .round {
             margin-left:0;
             width:100%;
         }
@@ -128,13 +128,13 @@
         .span_2 {
             width:32.0%;
         }
-        .span_3 {
+        .span_3, .round {
             width:49.0%;
         }
         .span_4 {
             width:66.0%;
         }
-        .span_5 {
+        .span_5, {
             width:83.0%;
         }
         .span_6 {
@@ -179,7 +179,7 @@
         .span_3 {
             width:36.875%;
         }
-        .span_4 {
+        .span_4, .round {
             width:49.5%;
         }
         .span_5 {
@@ -191,7 +191,7 @@
         .span_7 {
             width:87.375%;
         }
-        .span_8 {
+        .span_8, {
             margin-left:0;
             width:100%;
         }
