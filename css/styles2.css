@@ -80,11 +80,13 @@ a {
 
 #sum {
 	margin-left: 150px;
+	padding-right 20px;
 	color: #999;
 }
 
 #education, #wex, #rels, #refs, #ach {
 	margin-left: 100px;
+	padding-right: 20px;
 }
 
 @font-face {
